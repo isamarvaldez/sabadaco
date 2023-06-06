@@ -102,19 +102,37 @@ button {
 }
     
 h2{
-    font-size: 25x;
+    font-size: 35px;
     width: 700px;
     text-align: center;
     margin: 0 auto;
 }
 
 .passeiodecachorro {
-    justify-content: space-between; 
+    margin: 40px;
+    justify-content: space-around; 
     display: flex;  
 
 }
 .cartao1, .cartao2{
     background-color: white;
-    width: 500px;
-    height: 422px;
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.cartao1 img, .cartao2 img {
+    
+    width: 270px;
+    
+} 
+.cartao1 p, .cartao2 p {
+    text-align: center;
+}
+
+.cartao1 a, .cartao2 a {
+    text-decoration: underline;
 }
