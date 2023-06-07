@@ -38,7 +38,7 @@ header {
 }
 
 .links {
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 27px;
     color: black;
@@ -51,7 +51,8 @@ header {
 }
 
 .section1 {
-    margin: 100px;
+    width: 85%;
+    margin: 0 auto;
     display: flex;
 
 }
@@ -90,18 +91,20 @@ button {
     font-size: 20px;
 
 }
+
 .section2 {
     background-color: #FF880026;
     padding: 50px 0;
 }
+
 .containergrid {
-    width: 1400px;
+    width: 85%;
     margin: 0 auto;
 
 
 }
-    
-h2{
+
+h2 {
     font-size: 35px;
     width: 700px;
     text-align: center;
@@ -109,12 +112,14 @@ h2{
 }
 
 .passeiodecachorro {
-    margin: 40px;
-    justify-content: space-around; 
-    display: flex;  
+    
+    justify-content: space-between;
+    display: flex;
 
 }
-.cartao1, .cartao2{
+
+.cartao1,
+.cartao2 {
     background-color: white;
     width: 400px;
     height: 350px;
@@ -124,15 +129,48 @@ h2{
     padding: 20px;
 
 }
-.cartao1 img, .cartao2 img {
-    
+
+.cartao1 img,
+.cartao2 img {
+
     width: 270px;
-    
-} 
-.cartao1 p, .cartao2 p {
+
+}
+
+.cartao1 p,
+.cartao2 p {
     text-align: center;
 }
 
-.cartao1 a, .cartao2 a {
+.cartao1 a,
+.cartao2 a {
     text-decoration: underline;
+}
+.section3 {
+    padding-top: 30px;
+}
+
+.posicionamentosection3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.textosection3{
+    width: 500px;  
+
+
+}
+
+
+.textosection3 h2 {
+    font-weight: 700;
+    font-size: 46px;
+    text-align: start;
+    margin-bottom: 50px;
+
+
+}
+.imagenrecomendacoes{
+    width: 350px;
 }
